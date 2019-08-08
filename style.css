@@ -31,6 +31,7 @@ body{
 
 .banner{
     position: relative;
+    min-width: 600px;;
 }
 
 .background-image{
@@ -75,7 +76,7 @@ body{
     background-color: #D8D1D0;
     color: white;
     left: 50%;
-    bottom: 10%;
+    bottom: 50px;
     max-width: 30%;
 }
 
