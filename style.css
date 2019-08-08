@@ -1,0 +1,87 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+html{
+    background: lightgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 20px 80px;
+}
+
+.title{
+    color: white;
+    text-align: end;
+    font-style: italic;
+}
+
+.menu-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_item a{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.85em;
+}
+
+.banner{
+    position: relative;
+}
+
+.background-image{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popup{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 200px;
+    width: 80%;
+    background-color: black;
+    color: white;
+}
+
+.popup_content{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.popup .number{
+    font-size: 7em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    line-height: 50%;
+}
+
+.popup-description{
+    position: absolute;
+    background-color: #D8D1D0;
+    color: white;
+    left: 50%;
+    bottom: 10%;
+    max-width: 30%;
+}
+
+.random-images{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
